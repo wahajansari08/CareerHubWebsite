@@ -1,0 +1,138 @@
+/* General styles for the dashboard */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar styles */
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    min-height: 100vh;
+    width: 250px;
+    transition: all 0.3s;
+}
+
+#sidebar.toggled {
+    width: 60px;
+}
+
+.sidebar-heading {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 0;
+    padding: 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.list-group-item i {
+    margin-right: 10px;
+}
+
+/* Navbar styles */
+#page-content-wrapper {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* General container styling */
+.container {
+    margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom:100px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Input group styling */
+.input-group-text {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.input-group-text i {
+    font-size: 1rem;
+}
+
+/* Form controls */
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+textarea.form-control {
+    resize: none;
+}
